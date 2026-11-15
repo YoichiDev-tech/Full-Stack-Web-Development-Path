@@ -1,0 +1,18 @@
+.blue-box {
+    height: 300px;
+    width: 500px;
+    background-color: blue;
+    position: relative;
+    top: 200px; /* 200 px down from the top */
+    left: 200px; /* 200 px right from the left */
+}
+
+.red-circle {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%; /* the percentage creates a circle */
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}

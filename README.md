@@ -18,9 +18,9 @@ knowledge base and technical roadmap.
 ## Current Focus 
 - HTML5
 - CSS3
-- Bootstrap
 
 ## Upcoming
+- Bootstrap
 - JavaScript
 - Node.js
 - Express.js
@@ -45,6 +45,7 @@ knowledge base and technical roadmap.
 - CSS syntax and selectors
 - Cascade and specificity
 - Box model
+- CSS positioning
 
 ## Practical Projects
 ## Challenges & Solutions
