@@ -1,0 +1,32 @@
+/* a perfect example of cascade and specificity 
+where the order of the rules matters 
+and the specificity of the selectors matters as well. 
+The more specific selector will override 
+the less specific one, 
+even if it comes later in the stylesheet
+*/
+
+#outer-box {
+    background-color: purple;
+    padding: 10px;
+}
+
+.box {
+    background-color: blue;
+    padding: 10px;
+}
+
+.inner-box {
+    background-color: red;
+    padding: 10px;
+}
+
+p {
+    color: yellow;
+    margin: 0;
+    padding: 0;
+}
+
+.white-text {
+    color: white;
+}

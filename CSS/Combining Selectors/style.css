@@ -1,0 +1,23 @@
+h1, h2 {
+    color: blueviolet;
+}
+
+/* direct child selector */
+.box > .done {
+    color: firebrick;
+}
+
+/* descendant selector */
+.box .list {
+    color: blue;
+}
+
+/* class chaining selector */
+li.done {
+    color: seagreen;
+}
+
+/* direct child selector with class */
+ul > p.done {
+    font-size: 0.5rem;
+}

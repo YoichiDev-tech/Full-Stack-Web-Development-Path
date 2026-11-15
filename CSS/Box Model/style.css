@@ -1,0 +1,30 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+    padding: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: 10px solid black;
+}
+
+.text-margin {
+    margin: 0;
+}
+
+.box-2 {
+    height: 100px;
+    width: 100px;
+    background-color: lightcoral;
+    border: solid black;
+    border-width:20px 10px;
+    margin-left: 160px;
+}
+
+.box-3 {
+    height: 150px;
+    width: 150px;
+    background-color: lightgreen;
+    border: solid black;
+    border-width: 10px;
+}
