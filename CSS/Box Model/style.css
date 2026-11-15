@@ -1,3 +1,4 @@
+/* box model example */
 .box {
     height: 100px;
     width: 100px;
@@ -8,6 +9,7 @@
     border: 10px solid black;
 }
 
+/* text margin example */
 .text-margin {
     margin: 0;
 }

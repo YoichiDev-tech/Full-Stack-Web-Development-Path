@@ -7,7 +7,7 @@ Documenting my progress as I learn the technologies, concepts
 and tools required to design, develop and deploy real-world apps.
 
 ## My Goals
-My goal is to become capable indipendently building proction-ready
+My goal is to become capable independently building production-ready
 apps, SaaS products and scalable web platforms.
 
 The current repo, will be my technical learning journal, 
