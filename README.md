@@ -48,4 +48,10 @@ knowledge base and technical roadmap.
 - CSS positioning
 
 ## Practical Projects
+
+CSS Flag Project
+The goal, is to build a flag without changing the existing HTML document
+and only working in the style.css file. This meant, putting together
+all the pieces learnt so far and combining selectors to design it.
+
 ## Challenges & Solutions
