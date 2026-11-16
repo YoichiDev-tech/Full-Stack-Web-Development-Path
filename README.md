@@ -24,7 +24,6 @@ knowledge base and technical roadmap.
 - JavaScript
 - Node.js
 - Express.js
-- Bootstrap
 - React
 - PostgreSQL
 
@@ -46,6 +45,7 @@ knowledge base and technical roadmap.
 - Cascade and specificity
 - Box model
 - CSS positioning
+- Display Property
 
 ## Practical Projects
 
