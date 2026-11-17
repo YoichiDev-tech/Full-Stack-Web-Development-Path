@@ -1,0 +1,68 @@
+body {
+  font-family: "Poppins", sans-serif; /* preferred font if "Poppins" isn't available */
+  margin: 50px 50px 0 50px;
+  background-color: wheat;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh; /* vh = viewport height, 1% of the browser height */
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: center;
+  color: midnightblue;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.creative {
+  color: midnightblue;
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify; /* justify = stretches the text so that lines align with left and right */
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover; /* object-fit = controls how an image or video fits in a container */
+    /* cover = fills it */
+  }
+}

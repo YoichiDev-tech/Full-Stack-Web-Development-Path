@@ -1,6 +1,17 @@
-html {
-    background-color:beige;
+html, body {
+    min-height: 100%;
+    margin: 0;
+}
 
+body {
+    min-height: 100vh;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+              url("itachi.jpg") center / cover no-repeat;
+}
+
+p {
+    text-align: center;
 }
 
 .green-text {
@@ -13,4 +24,24 @@ html {
 
 .red-text {
     color:red;
+}
+
+footer {
+    text-align: center;
+    color: blueviolet;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 680px) {
+    div > ul {
+        display: block;
+    }
+
+    h1 {
+        margin-left: 2rem;
+    }
+
+    h2 {
+        margin-left: 2rem;
+    }
 }

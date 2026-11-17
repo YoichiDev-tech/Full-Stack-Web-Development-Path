@@ -1,0 +1,45 @@
+/* fill in the HTML document with its requirements
+then use the css float (image) and css clear (footer) */
+
+div {
+    display: inline-block;
+    width: 40%;
+}
+
+p {
+    font-size: 2em;
+}
+
+.sabo {
+    float: left;
+    background-color: aquamarine;
+}
+
+img {
+    float: left;
+    height: 250px;
+    width: 250px;
+}
+
+div {
+    display: inline-block;
+    width: 40%
+}
+
+.mihawk {
+    float: right;
+    background-color: coral;
+}
+
+img {
+    float: left;
+    height: 250px;
+    width: 250px;
+    position: relative;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: blueviolet;
+}
