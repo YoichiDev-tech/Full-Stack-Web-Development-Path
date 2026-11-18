@@ -58,22 +58,32 @@ knowledge base and technical roadmap.
 ## Practical Projects
 
 ### CSS 
-Flag Project
+Flag Project - 
 The goal, is to build a flag without changing the existing HTML document
 and only working in the style.css file. This meant, putting together
 all the pieces learnt so far and combining selectors to design it.
 
-Web Design Agency
+Web Design Agency -  
 The goal, is to build a web design agency's page without changing the
 existing HTML document and only working on the style.css file by applying
 all the topics covered so far (last topic, Media Query).
 
+Flexbox Pricing Table - 
+The goal is to design three pricing card tables, without modifying
+the HTML document and working on in it with the internal style element.
+
 ## Challenges & Solutions
 
 ### CSS
-Web Design Agency
+Web Design Agency - 
 Challenges found while designing this project,
 was to decide the min-height to 95 of viewport height, as its something new,
 get used to the "justify" keyword and most importantly,
 to the object-fit property: all together, helped me to achieve 
 the result wanted and expected.
+
+
+Flexbox Pricing Table - 
+Challenges found was to use the flexbox properties learnt
+to align the the cards, the text and the button but mainly, 
+to fully understand its work and use-case.
