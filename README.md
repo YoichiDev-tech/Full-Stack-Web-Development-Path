@@ -18,9 +18,9 @@ knowledge base and technical roadmap.
 ## Current Focus 
 - HTML5
 - CSS3
+- Bootstrap
 
 ## Upcoming
-- Bootstrap
 - JavaScript
 - JQuery
 - Node.js
@@ -54,6 +54,13 @@ knowledge base and technical roadmap.
 - Display: Flex
 - Flex Layout
 - Flex Sizing
+- Display: Grid
+- Grid Sizing
+- Grid Placement
+
+## Bootstrap
+- Introduction + setup
+
 
 ## Practical Projects
 
@@ -72,6 +79,14 @@ Flexbox Pricing Table -
 The goal is to design three pricing card tables, without modifying
 the HTML document and working on in it with the internal style element.
 
+Display Grid: Chess Board -
+The goal is to use the tools learnt to build a chess board; grid
++ grid templates.
+
+Mondrian Art Final Project - 
+The goal is to build an artistic painting using CSS tools from the 
+Mondrian artist real world paintings made in CSS Grid.
+
 ## Challenges & Solutions
 
 ### CSS
@@ -87,3 +102,10 @@ Flexbox Pricing Table -
 Challenges found was to use the flexbox properties learnt
 to align the the cards, the text and the button but mainly, 
 to fully understand its work and use-case.
+
+
+Mondrian Art Final Project - 
+One of the challenge was to think of this painting as a 
+house planimetry and work on it as an architect and using 
+imagination for the rooms (grids/grid template columns - grid template rows), 
+spacing and also using the flex-box.

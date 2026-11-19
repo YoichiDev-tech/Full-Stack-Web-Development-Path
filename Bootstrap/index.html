@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!-- todo 1: add bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <style>
+        /* todo 4: use flexbox to center the card vertically and horizontally */
+        .flex-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <!-- todo 2: add the bootstrap prebuilt card example -->
+        <section class="card" style="max-width: 320px">
+            <!-- todo 3: change the image src to add anime.jpg -->
+            <img src="./../itachi.jpg" class="card-img-top" alt="Itachi anime">
+            <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn-solid theme-primary">Go somewhere</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

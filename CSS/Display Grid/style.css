@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    width: 800px; /* full container width - 
+    to don't leave space between squares */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.white {
+    height: 100px;
+    width: 100px;
+    background-color: wheat;
+}
+
+.black {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
