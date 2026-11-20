@@ -6,12 +6,19 @@ html, body {
 body {
     min-height: 100vh;
     color: white;
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-              url("itachi.jpg") center / cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.45)),
+              url("itachi-background.jpg") center / cover no-repeat;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 35px;
 }
 
 p {
     text-align: center;
+    margin-bottom: 35px;
 }
 
 .green-text {
@@ -23,12 +30,13 @@ p {
 }
 
 .red-text {
-    color:red;
+    color: red;
 }
 
 footer {
     text-align: center;
     color: blueviolet;
+    margin-top: 35px;
     margin-bottom: 50px;
 }
 
@@ -44,4 +52,25 @@ footer {
     h2 {
         margin-left: 2rem;
     }
+}
+
+.anime-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 300px;
+    gap: 20px;
+    padding: 20px;
+}
+
+.anime-listing {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+
+    background-color: rgba(0, 0, 0, 0.30);
+    padding: 20px;
+    border-radius: 10px;
 }
